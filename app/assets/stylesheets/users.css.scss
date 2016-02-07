@@ -1,9 +1,12 @@
-.avatar {
+.user-show-avatar {
     border-radius: 50%;
     -webkit-box-shadow: -19px 18px 32px -1px rgba(0,0,0,0.65);
     -moz-box-shadow: -19px 18px 32px -1px rgba(0,0,0,0.65);
     box-shadow: -19px 18px 32px -1px rgba(0,0,0,0.65);
+    height: 128px;
+    width: 128px;
 }
+
 
 .job-title-icon {
   display: inline-block;
@@ -30,4 +33,13 @@
 .well.contact-info {
   background-color: #5bc0de;
   border-color: #46b8da;
+}
+
+// Users index page styles
+.well.white-bg {
+  background-color: white;
+}
+
+.user-index-avatar {
+  border-radius: 50%;
 }
