@@ -5,12 +5,18 @@
 
 
 
-body {
-    // Gradiant from http://uigradients.com/#
-    background: #43cea2; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+// body {
+//     // Gradiant from http://uigradients.com/#
+//     background: #43cea2; /* fallback for old browsers */
+//     background: -webkit-linear-gradient(to left, #43cea2 , #185a9d); /* Chrome 10-25, Safari 5.1-6 */
+//     background: linear-gradient(to left, #43cea2 , #185a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         
+// }
+
+.jumbotron {
+    background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/L3XZYBX92T.jpg);
+    background-size: 700px, 600px;
+    background-repeat: no-repeat;
 }
 
 .alert-notice {
